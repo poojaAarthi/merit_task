@@ -1,0 +1,184 @@
+#sec1 
+{
+border:1px solid;
+border-radius:10px;
+width:600px;
+padding:15px;
+margin-top:5%;
+background-color:#d1dde6;
+
+
+
+}
+#sec2
+{
+border:1px solid;
+border-radius:10px;
+width:600px;
+padding:20px;
+justify-content:space-evenly;
+display:flex;
+background-color:#d1dde6 ;
+text-decoration: none;
+
+
+}
+#sec2 ul{
+    display:flex;
+    text-align:center;
+    justify-content:space-evenly;
+    font-size: 15px;
+    }
+    
+        
+#sec2 ul li{
+        display:flex;
+        width:200px;
+        justify-content:space-evenly;
+        font-size: 15px;
+        
+}
+#par{
+    color:#039;
+    font-size:20px;
+    
+    font-weight:bold;
+    text-indent:20px;
+    text-align:center;
+    
+    }
+
+#sec3{
+border:1px solid;
+border-radius:10px;
+width:600px;
+padding:20px;
+height:180px;
+
+justify-content:space-between;
+display:flex;
+background-color:#d1dde6 ;
+
+}
+
+#sec3 ul li img{
+
+width:50px; 
+height:50px;
+
+
+}
+
+#sec3 ul{
+display:flex;
+text-align:center;
+}
+
+#sec3 ul li{
+display:flex;
+width:200px;
+
+}
+#sec3 ul li p{
+
+
+margin:50px auto;
+}
+#imgg{
+    left:99%;
+    
+    
+}
+
+body
+{
+min-height:100vh;
+width:100%;
+display:flex;
+top:-60px;
+position:relative;
+justify-content:center;
+align-items:center;
+}
+
+
+#box3{
+    display:inline-block;
+    position:absolute;
+    top:6%;
+    left:99%;
+    box-sizing: border-box;
+    padding:30px;
+    width:300;
+    height:350;
+    padding:12px ;
+    /*margin:0px;*/
+    
+    background-color:#20B2AA;
+    
+    
+
+}
+h4{
+   color:#ffffff;
+   text-decoration: underline;
+}
+#box3 label{
+    color:#ffffff;
+    text-align: right;
+}
+#feed
+{
+    display:inline-block;
+    position: relative;
+    left:-23%;
+   margin-left:20%;
+    right: 30%;
+    top:-20%;
+    width:300px;
+    height:500px;
+    
+    padding:25px 100px;
+    
+}
+
+#box3 input{
+    margin-bottom:20px;
+    width:100%;
+
+}
+#box3 input[type=text],input[type=area]{
+    border:none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    height:40px;
+    color:#ffffff;
+    display:16px;
+}
+::placeholder{
+    color:#ffffff;
+    font-size: medium;
+}
+
+#box3 a{
+    text-decoration: none;
+    padding: 0.2em 1em;
+    background-color: lightblue;
+    font-size: 1em;
+    color:slateblue;
+}
+#box3 a:hover{
+    background-color: #778899;
+}
+
+
+
+
+
+
+
+
+
+
+

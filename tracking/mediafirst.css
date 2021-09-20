@@ -1,0 +1,99 @@
+@media only screen and (max-width: 500px) {
+    #all_all {
+        min-height: 100vh;
+        width: 100%;
+        margin: 15%;
+        margin-top: 15%;
+        margin-right: 15%;
+        margin-bottom: 15%;
+        margin-left: 15%;
+        top: -87%;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    #img_side img {
+        
+            width: 80%;
+            height: 80vh;
+            /*margin-left:4%;*/
+            margin-left:-35px;
+            border-radius: 10px;
+            border: 3px solid;
+            border-color: #20B2AA;
+           /* margin: 35px 160px;*/
+            text-align: center;
+            background-color: #20B2AA;
+        }
+    #box {
+        
+            position: absolute;
+            top: 90%;
+            left: 63%;
+            margin-left:-60px;
+            transform: translate(-50%,-50%);
+            width: 80%;
+            height: 900px;
+            box-sizing: border-box;
+            background: #20B2AA;
+            padding: 30px;
+            margin-top:950px;
+        
+        }
+    ::placeholder {
+            font-size: 30px;
+        }
+     #box input[type=text], input[type=number], input[type=date] {
+            border: none;
+            border-bottom: 1px solid #ffffff;
+            background-color: transparent;
+            outline: none;
+            height: 90px;
+            color: #ffffff;
+            display: 10px;
+        }
+    input#ordat {
+            font-size: 30px;
+    }
+    #box label {
+        margin-bottom: 20px;
+        width: 80%;
+        font-size: 30px;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        height: 40px;
+        color: #ffffff;
+        display: 16px;
+    }
+    #box input[type=submit] {
+        border: none;
+        height: 80px;
+        font-size: 60px;
+        outline: none;
+        color: #ffffff;
+        font-size: 60px;
+        background-color: rgb(53, 225, 231);
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+   
+    
+        
+    
+    
+    
+    #hed {
+        color: #20B2AA;
+        text-decoration: underline;
+        font-size: 15px;
+        margin-right: -10%;
+        align-content: center;
+        text-decoration-color: #20B2AA;
+    }
+}
