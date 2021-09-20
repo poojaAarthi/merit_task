@@ -1,0 +1,50 @@
+create table trackk (tid integer,status varchar(50));
+
+ 
+
+insert into trackk(tid)values(123);
+insert into trackk(tid)values(456);
+insert into trackk(tid)values(789);
+insert into trackk(tid)values(156);
+
+ 
+
+SELECT * FROM trackk;
+use vina;
+create procedure track_poo
+ @ttid   INTEGER,
+ @stat   VARCHAR(10)
+as 
+begin 
+  if EXISTS(SELECT TID FROM trackk WHERE TID=@TTID)
+     BEGIN
+       UPDATE trackk SET STATUS=@stat WHERE TID=@TTID
+       PRINT 'UPDATED STATUS'
+     END
+  ELSE
+     PRINT 'NOT UPDATED'
+end;
+
+ 
+
+exec track_poo @ttid=2,@stat='CONFIRM';
+
+ 
+
+ 
+
+
+----
+use vina;
+create procedure slt
+as
+begin
+select * from trackk;
+end
+
+ 
+
+
+exec slt;
+
+
